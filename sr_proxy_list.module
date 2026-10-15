@@ -359,7 +359,6 @@ DOMAIN-SUFFIX,yourtv.com.au,PROXY
 DOMAIN-SUFFIX,goup.ai,PROXY
 DOMAIN,docker-pinata-support.s3.amazonaws.com,PROXY
 DOMAIN-SUFFIX,beatsua.com,PROXY
-DOMAIN-SUFFIX,chatgpt.com,PROXY
 DOMAIN-SUFFIX,bmw-motorrad-test-ride.com,PROXY
 DOMAIN-SUFFIX,ow.ly,PROXY
 DOMAIN-SUFFIX,breakgfw.com,PROXY
@@ -724,7 +723,6 @@ DOMAIN-SUFFIX,dtv2009offers.com,PROXY
 DOMAIN-SUFFIX,volvotrucks.ro,PROXY
 DOMAIN-SUFFIX,hkreadingcity.net,PROXY
 DOMAIN-SUFFIX,bmw-connecteddrive.co.uk,PROXY
-DOMAIN-SUFFIX,identrust.com,PROXY
 DOMAIN-SUFFIX,hddgames.cc,PROXY
 DOMAIN-SUFFIX,beatsheadphonesonline.com,PROXY
 DOMAIN-SUFFIX,gettyimages.hk,PROXY
@@ -1031,7 +1029,6 @@ DOMAIN-SUFFIX,snowcorp.com,PROXY
 DOMAIN-SUFFIX,mini.mq,PROXY
 DOMAIN-SUFFIX,jdavsp.top,PROXY
 DOMAIN-SUFFIX,mafia-linkz.to,PROXY
-DOMAIN,openaicomproductionae4b.blob.core.windows.net,PROXY
 DOMAIN-SUFFIX,rlwlw.com,PROXY
 DOMAIN-SUFFIX,visaglobalfinance.com,PROXY
 DOMAIN-SUFFIX,mac-mini.com,PROXY
@@ -3637,7 +3634,6 @@ DOMAIN-SUFFIX,miniso.com.es,PROXY
 DOMAIN-SUFFIX,18insta.com,PROXY
 DOMAIN-SUFFIX,autodeskgreenbuildingstudio.com,PROXY
 DOMAIN-SUFFIX,biedian.me,PROXY
-DOMAIN-SUFFIX,cdn.cloudflare.net,PROXY
 DOMAIN-SUFFIX,wildberries.es,PROXY
 DOMAIN-SUFFIX,bromo.com,PROXY
 DOMAIN-SUFFIX,sourcehut.org,PROXY
@@ -3947,7 +3943,6 @@ DOMAIN-SUFFIX,intel.com,PROXY
 DOMAIN-SUFFIX,flyio.net,PROXY
 DOMAIN-SUFFIX,szabadeuropa.hu,PROXY
 DOMAIN-SUFFIX,alphabetfinance.net,PROXY
-DOMAIN-SUFFIX,auth0.com,PROXY
 DOMAIN-SUFFIX,exp-tas.com,PROXY
 DOMAIN-SUFFIX,neodb.social,PROXY
 DOMAIN-SUFFIX,akamai-platform.net,PROXY
@@ -4084,7 +4079,6 @@ DOMAIN-SUFFIX,www.gmiddle.com,PROXY
 DOMAIN-SUFFIX,bmw-motorrad.ua,PROXY
 DOMAIN-SUFFIX,sexedanslepre.net,PROXY
 DOMAIN-SUFFIX,onxxxvideo.com,PROXY
-DOMAIN-SUFFIX,stripe.com,PROXY
 DOMAIN,daily-cloudcode-pa.googleapis.com,PROXY
 DOMAIN-SUFFIX,qiao-cn.com,PROXY
 DOMAIN-SUFFIX,foxsportsneworleans.com,PROXY
@@ -5561,7 +5555,6 @@ DOMAIN-SUFFIX,imgbb.com,PROXY
 DOMAIN-SUFFIX,miniso-nz.com,PROXY
 DOMAIN-SUFFIX,telekom.de,PROXY
 DOMAIN-SUFFIX,airbnb.com.bz,PROXY
-DOMAIN-SUFFIX,ai.com,PROXY
 DOMAIN-SUFFIX,4sqi.net,PROXY
 DOMAIN-SUFFIX,gt536.top,PROXY
 DOMAIN-SUFFIX,apple-cloudkit.com,PROXY
@@ -7644,7 +7637,6 @@ DOMAIN-SUFFIX,iaablog.com,PROXY
 DOMAIN-SUFFIX,gartlive.com,PROXY
 DOMAIN-SUFFIX,rarbgunblocked.org,PROXY
 DOMAIN-SUFFIX,google.co.il,PROXY
-DOMAIN-SUFFIX,observeit.net,PROXY
 DOMAIN-SUFFIX,hf.space,PROXY
 DOMAIN-SUFFIX,applewallet.tv,PROXY
 DOMAIN-SUFFIX,bangumi.tv,PROXY
@@ -7845,7 +7837,6 @@ DOMAIN-SUFFIX,visamiddleeast.com,PROXY
 DOMAIN-SUFFIX,amazonstudiosguilds.com,PROXY
 DOMAIN-SUFFIX,zhengjian.org,PROXY
 DOMAIN-SUFFIX,goodsrv.de,PROXY
-DOMAIN-SUFFIX,openaicom.imgix.net,PROXY
 DOMAIN-SUFFIX,autodeskfashionstyler.com,PROXY
 URL-REGEX,"^https?:\/\/(.*\.)?91wang[1-9]\.com.*$",PROXY
 DOMAIN-SUFFIX,mult34.com,PROXY
@@ -8809,7 +8800,6 @@ DOMAIN-SUFFIX,weimi180.com,PROXY
 DOMAIN-SUFFIX,ltsports.com.tw,PROXY
 DOMAIN,scholar.google.com.hk,PROXY
 DOMAIN-SUFFIX,apple.xyz,PROXY
-DOMAIN,openai-api.arkoselabs.com,PROXY
 DOMAIN-SUFFIX,fbworkmail.com,PROXY
 DOMAIN-SUFFIX,facebookland.com,PROXY
 DOMAIN-SUFFIX,licenseparser.com,PROXY
@@ -9355,7 +9345,6 @@ DOMAIN-SUFFIX,foxsoccerplus.net,PROXY
 DOMAIN-SUFFIX,veet.ca,PROXY
 DOMAIN-SUFFIX,hkf202312.shop,PROXY
 DOMAIN-SUFFIX,nikesoccercleats.com,PROXY
-DOMAIN,browser-intake-datadoghq.com,PROXY
 DOMAIN-SUFFIX,live.eu,PROXY
 DOMAIN-SUFFIX,hornyasianmilfs.com,PROXY
 DOMAIN,ubistatic2-a.akamaihd.net,PROXY
@@ -9611,7 +9600,6 @@ DOMAIN-SUFFIX,amerikaninsesi.com,PROXY
 DOMAIN-SUFFIX,mozaws.net,PROXY
 DOMAIN-SUFFIX,mini.cz,PROXY
 DOMAIN-SUFFIX,orgasmlist.com,PROXY
-DOMAIN-SUFFIX,oaiusercontent.com,PROXY
 DOMAIN-SUFFIX,bmworegon.com,PROXY
 DOMAIN-SUFFIX,kijji.ca,PROXY
 DOMAIN-SUFFIX,crosswall.org,PROXY
@@ -10922,7 +10910,6 @@ DOMAIN-SUFFIX,delivery-club.ru,PROXY
 DOMAIN-SUFFIX,geph.io,PROXY
 DOMAIN-SUFFIX,chainid.network,PROXY
 DOMAIN-SUFFIX,heeact.edu.tw,PROXY
-DOMAIN-SUFFIX,poe.com,PROXY
 DOMAIN-SUFFIX,horsedicks.net,PROXY
 DOMAIN-SUFFIX,jerkmate.com,PROXY
 DOMAIN-SUFFIX,nrk.no,PROXY
@@ -11002,7 +10989,6 @@ DOMAIN-SUFFIX,2kgames.com,PROXY
 DOMAIN-SUFFIX,sexyhumorgames.com,PROXY
 DOMAIN-SUFFIX,ws-tcg.com,PROXY
 DOMAIN-SUFFIX,acheterfollowersinstagram.com,PROXY
-DOMAIN-KEYWORD,openaicom-api,PROXY
 DOMAIN-SUFFIX,tejaratbank.ir,PROXY
 DOMAIN-SUFFIX,iuhrdf.org,PROXY
 DOMAIN-SUFFIX,theman.in,PROXY
@@ -12965,7 +12951,6 @@ DOMAIN-SUFFIX,hpgpas.com,PROXY
 DOMAIN-SUFFIX,visa.de,PROXY
 DOMAIN-SUFFIX,askfacebook.net,PROXY
 DOMAIN-SUFFIX,9now.com.au,PROXY
-DOMAIN-SUFFIX,api.statsig.com,PROXY
 DOMAIN-SUFFIX,facebook.org,PROXY
 DOMAIN-SUFFIX,ozoncorporate.ru,PROXY
 DOMAIN-SUFFIX,porndish.com,PROXY
@@ -13109,7 +13094,6 @@ DOMAIN-SUFFIX,herringnetwork.com,PROXY
 DOMAIN-SUFFIX,autodesk.dev,PROXY
 DOMAIN-SUFFIX,hotcuckoldwife.com,PROXY
 DOMAIN-SUFFIX,johren.games,PROXY
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,PROXY
 DOMAIN-SUFFIX,nurofengel.com,PROXY
 DOMAIN-SUFFIX,bbqm1.xyz,PROXY
 DOMAIN-SUFFIX,fine-art-nude.org,PROXY
@@ -13430,7 +13414,6 @@ DOMAIN-SUFFIX,nikeoutletstores.com,PROXY
 DOMAIN-SUFFIX,hbo.com,PROXY
 DOMAIN-SUFFIX,ficgs.com,PROXY
 DOMAIN-SUFFIX,omniroot.com,PROXY
-DOMAIN-SUFFIX,chatgpt.livekit.cloud,PROXY
 DOMAIN-SUFFIX,futpromos.com,PROXY
 DOMAIN-SUFFIX,sony.com.sv,PROXY
 DOMAIN-SUFFIX,icqgames.com,PROXY
@@ -14084,7 +14067,6 @@ DOMAIN-SUFFIX,ntp1.plala.or.jp,PROXY
 DOMAIN-SUFFIX,info-graf.fr,PROXY
 DOMAIN-SUFFIX,volvosaatio.fi,PROXY
 DOMAIN-SUFFIX,autodeskplm360.com,PROXY
-DOMAIN,production-openaicom-storage.azureedge.net,PROXY
 DOMAIN-SUFFIX,skunkgirl.cc,PROXY
 DOMAIN-SUFFIX,lovex.life,PROXY
 DOMAIN-SUFFIX,governmentengineer.com,PROXY
@@ -15708,7 +15690,6 @@ DOMAIN-SUFFIX,rprimelab.com,PROXY
 DOMAIN-SUFFIX,disney.nl,PROXY
 DOMAIN-SUFFIX,epochtimes.ru,PROXY
 DOMAIN-SUFFIX,idelreal.org,PROXY
-DOMAIN-SUFFIX,openai.com,PROXY
 DOMAIN-SUFFIX,nike-fr.com,PROXY
 DOMAIN-SUFFIX,hentaidude.com,PROXY
 DOMAIN-SUFFIX,officialheadphone.com,PROXY
@@ -17162,7 +17143,6 @@ DOMAIN-SUFFIX,bankofkazan.ru,PROXY
 DOMAIN-SUFFIX,silicagame.com,PROXY
 DOMAIN-SUFFIX,foxest.com,PROXY
 DOMAIN-SUFFIX,amazon.com.br,PROXY
-DOMAIN-SUFFIX,segment.io,PROXY
 DOMAIN-SUFFIX,adidassailing.com,PROXY
 DOMAIN-SUFFIX,icq.asia,PROXY
 DOMAIN-SUFFIX,airbnb.be,PROXY
@@ -17202,7 +17182,6 @@ DOMAIN-SUFFIX,icq-download.com,PROXY
 DOMAIN-SUFFIX,chinaaid.org,PROXY
 DOMAIN-SUFFIX,lojaiphone.com.br,PROXY
 DOMAIN-SUFFIX,durex.nl,PROXY
-DOMAIN-SUFFIX,sentry.io,PROXY
 DOMAIN-SUFFIX,2013beatsbydrdreshop.com,PROXY
 DOMAIN-SUFFIX,shenyunperformingarts.org,PROXY
 DOMAIN-SUFFIX,pureapk.com,PROXY
@@ -17637,7 +17616,6 @@ DOMAIN-SUFFIX,artoferotica.info,PROXY
 DOMAIN-SUFFIX,rabbitcounter.com,PROXY
 DOMAIN-SUFFIX,mpgw-my.com,PROXY
 DOMAIN-SUFFIX,udndata.com,PROXY
-DOMAIN,static.cloudflareinsights.com,PROXY
 DOMAIN-SUFFIX,erogazo-jp.net,PROXY
 DOMAIN-SUFFIX,starbucks.ch,PROXY
 DOMAIN,wwis-dubc1-vip70.adobe.com,PROXY
@@ -17767,7 +17745,6 @@ DOMAIN-SUFFIX,froth.zone,PROXY
 DOMAIN-SUFFIX,tteshop.com,PROXY
 DOMAIN-SUFFIX,7tb.cc,PROXY
 DOMAIN-SUFFIX,pornhub-deutsch.net,PROXY
-DOMAIN-SUFFIX,intercomcdn.com,PROXY
 DOMAIN-SUFFIX,oath.com,PROXY
 DOMAIN-SUFFIX,topxxxpornvids.com,PROXY
 DOMAIN-SUFFIX,pickshoesclothes.com,PROXY
@@ -17849,7 +17826,6 @@ DOMAIN-SUFFIX,www.s4miniarchive.com,PROXY
 DOMAIN-SUFFIX,family.com.tw,PROXY
 DOMAIN,time-d-g.nist.gov,PROXY
 DOMAIN-SUFFIX,retroclassicporn.com,PROXY
-DOMAIN-SUFFIX,launchdarkly.com,PROXY
 DOMAIN-SUFFIX,mastercardcenter.com,PROXY
 DOMAIN-SUFFIX,getprintersupports.com,PROXY
 DOMAIN-SUFFIX,kitakyushubank.co.jp,PROXY
@@ -17864,7 +17840,6 @@ DOMAIN-SUFFIX,beatsheadphonesdealer.com,PROXY
 DOMAIN-SUFFIX,bgr.in,PROXY
 DOMAIN-SUFFIX,khc.edu.tw,PROXY
 DOMAIN-SUFFIX,vkmessenger.com,PROXY
-DOMAIN-SUFFIX,turn.livekit.cloud,PROXY
 DOMAIN-SUFFIX,biliplus.com,PROXY
 URL-REGEX,"^https?:\/\/(.*\.)?yiren[1-9][0-9]\.com.*$",PROXY
 DOMAIN-SUFFIX,cheapshoesvip.com,PROXY
@@ -18373,7 +18348,6 @@ DOMAIN-SUFFIX,rtfestival.ru,PROXY
 DOMAIN-SUFFIX,miniso.my,PROXY
 DOMAIN-SUFFIX,pornshare.biz,PROXY
 DOMAIN-SUFFIX,you.com,PROXY
-DOMAIN-SUFFIX,oaistatic.com,PROXY
 DOMAIN-SUFFIX,ahorsecock.com,PROXY
 DOMAIN-SUFFIX,zb.live,PROXY
 DOMAIN-SUFFIX,steaminventoryhelper.com,PROXY
@@ -19352,7 +19326,6 @@ DOMAIN-SUFFIX,fashionbykakao.com,PROXY
 DOMAIN-SUFFIX,bridgestonetire.com,PROXY
 DOMAIN-SUFFIX,opencas.io,PROXY
 DOMAIN-SUFFIX,ipod.is,PROXY
-DOMAIN-SUFFIX,featuregates.org,PROXY
 DOMAIN-SUFFIX,autodeskarcade.com,PROXY
 DOMAIN-SUFFIX,durex.com.pe,PROXY
 URL-REGEX,"^https?:\/\/(.*\.)?supxxx[0-9]{0,2}\.com.*$",PROXY
@@ -20322,7 +20295,6 @@ DOMAIN-SUFFIX,visacarddesignlab.com,PROXY
 DOMAIN-SUFFIX,monsterbeatsnegozi.net,PROXY
 DOMAIN-SUFFIX,bestjapanesepornsites.com,PROXY
 DOMAIN-SUFFIX,unidraw.io,PROXY
-DOMAIN-SUFFIX,host.livekit.cloud,PROXY
 DOMAIN-SUFFIX,cloudflare-terms-of-service-abuse.com,PROXY
 DOMAIN-SUFFIX,nodeimage.com,PROXY
 DOMAIN-SUFFIX,binancezh.be,PROXY
@@ -20623,7 +20595,6 @@ DOMAIN-SUFFIX,dell.si,PROXY
 DOMAIN-SUFFIX,braintreepayments.info,PROXY
 DOMAIN-SUFFIX,twister.net.co,PROXY
 DOMAIN-SUFFIX,thecuckoldporn.com,PROXY
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net,PROXY
 DOMAIN-SUFFIX,beatsbydre-beatsheadphone.com,PROXY
 DOMAIN-SUFFIX,vmixcore.com,PROXY
 DOMAIN-SUFFIX,veet.com.pk,PROXY
@@ -21688,7 +21659,6 @@ DOMAIN-SUFFIX,rutubelist.ru,PROXY
 DOMAIN,notebooklm.googleapis.com,PROXY
 DOMAIN-SUFFIX,getfappy.com,PROXY
 DOMAIN-SUFFIX,gucci.com,PROXY
-DOMAIN-SUFFIX,client-api.arkoselabs.com,PROXY
 DOMAIN-SUFFIX,mastercard.dk,PROXY
 DOMAIN-SUFFIX,camonster.com,PROXY
 DOMAIN-SUFFIX,javynow.com,PROXY
@@ -22780,7 +22750,6 @@ DOMAIN-SUFFIX,secretsline.biz,PROXY
 DOMAIN-SUFFIX,yandex.pro,PROXY
 DOMAIN-SUFFIX,delets.online,PROXY
 DOMAIN-SUFFIX,69tubesex.com,PROXY
-DOMAIN-SUFFIX,intercom.io,PROXY
 DOMAIN-SUFFIX,xingrz.me,PROXY
 DOMAIN-SUFFIX,google.com.bd,PROXY
 DOMAIN-SUFFIX,urhtbooks.com,PROXY
@@ -22829,7 +22798,6 @@ DOMAIN-SUFFIX,grok.com,PROXY
 DOMAIN-SUFFIX,hsbc.co.uk,PROXY
 DOMAIN-SUFFIX,oxfordhandbooks.com,PROXY
 DOMAIN-SUFFIX,pjful-app.lol,PROXY
-DOMAIN-SUFFIX,challenges.cloudflare.com,PROXY
 DOMAIN-SUFFIX,ipad.co.kr,PROXY
 DOMAIN-SUFFIX,giratina.com,PROXY
 DOMAIN-SUFFIX,zeit-world.com,PROXY
@@ -23256,7 +23224,6 @@ DOMAIN-SUFFIX,hmd.site,PROXY
 DOMAIN-SUFFIX,mastercard.com.hk,PROXY
 DOMAIN-SUFFIX,autodeskfusionlifecycle.com,PROXY
 DOMAIN-SUFFIX,niziero.info,PROXY
-DOMAIN-SUFFIX,algolia.net,PROXY
 DOMAIN-SUFFIX,hideipvpn.com,PROXY
 DOMAIN-SUFFIX,taipeitimes.com,PROXY
 DOMAIN-SUFFIX,bit.ly,PROXY
@@ -26115,7 +26082,6 @@ DOMAIN-SUFFIX,beatsbydreheadphonesolo.com,PROXY
 DOMAIN-SUFFIX,printersetupsupport.com,PROXY
 DOMAIN-SUFFIX,vpnreviewz.com,PROXY
 DOMAIN-SUFFIX,ngrok.app,PROXY
-DOMAIN-SUFFIX,events.statsigapi.net,PROXY
 DOMAIN-SUFFIX,yahoo.com.sg,PROXY
 DOMAIN-SUFFIX,adidasspecialtysports.co.uk,PROXY
 DOMAIN-SUFFIX,heqinglian.net,PROXY
@@ -27470,8 +27436,15 @@ DOMAIN-SUFFIX,repotama.com,PROXY
 DOMAIN-SUFFIX,starp2p.com,PROXY
 DOMAIN-SUFFIX,miniccrc.ca,PROXY
 DOMAIN,chat.openai.com.cdn.cloudflare.net,PROXY
+DOMAIN,openai-api.arkoselabs.com,PROXY
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,PROXY
+DOMAIN,openaicomproductionae4b.blob.core.windows.net,PROXY
+DOMAIN,production-openaicom-storage.azureedge.net,PROXY
 DOMAIN,o33249.ingest.sentry.io,PROXY
 DOMAIN-KEYWORD,chatgpt,PROXY
+DOMAIN-KEYWORD,openaicom-api,PROXY
+DOMAIN-SUFFIX,chatgpt.com,PROXY
+DOMAIN-SUFFIX,openai.com,PROXY
 DOMAIN-SUFFIX,apple-cloudcompute.com,PROXY
 DOMAIN-SUFFIX,apple-ai.com,PROXY
 DOMAIN,guzzoni.apple.com,PROXY
@@ -27501,6 +27474,33 @@ DOMAIN,probe.siri.apple.com,PROXY
 DOMAIN,seed.siri.apple.com,PROXY
 DOMAIN,seed-swallow.siri.apple.com,PROXY
 DOMAIN,seed-sequoia.siri.apple.com,PROXY
+DOMAIN,browser-intake-datadoghq.com,PROXY
+DOMAIN,static.cloudflareinsights.com,PROXY
+DOMAIN-SUFFIX,ai.com,PROXY
+DOMAIN-SUFFIX,algolia.net,PROXY
+DOMAIN-SUFFIX,api.statsig.com,PROXY
+DOMAIN-SUFFIX,auth0.com,PROXY
+DOMAIN-SUFFIX,cdn.cloudflare.net,PROXY
+DOMAIN-SUFFIX,challenges.cloudflare.com,PROXY
+DOMAIN-SUFFIX,chatgpt.livekit.cloud,PROXY
+DOMAIN-SUFFIX,client-api.arkoselabs.com,PROXY
+DOMAIN-SUFFIX,events.statsigapi.net,PROXY
+DOMAIN-SUFFIX,featuregates.org,PROXY
+DOMAIN-SUFFIX,host.livekit.cloud,PROXY
+DOMAIN-SUFFIX,identrust.com,PROXY
+DOMAIN-SUFFIX,intercom.io,PROXY
+DOMAIN-SUFFIX,intercomcdn.com,PROXY
+DOMAIN-SUFFIX,launchdarkly.com,PROXY
+DOMAIN-SUFFIX,oaistatic.com,PROXY
+DOMAIN-SUFFIX,oaiusercontent.com,PROXY
+DOMAIN-SUFFIX,observeit.net,PROXY
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net,PROXY
+DOMAIN-SUFFIX,openaicom.imgix.net,PROXY
+DOMAIN-SUFFIX,poe.com,PROXY
+DOMAIN-SUFFIX,segment.io,PROXY
+DOMAIN-SUFFIX,sentry.io,PROXY
+DOMAIN-SUFFIX,stripe.com,PROXY
+DOMAIN-SUFFIX,turn.livekit.cloud,PROXY
 IP-CIDR,24.199.123.28/32,PROXY,no-resolve
 IP-CIDR,45.76.214.191/32,PROXY,no-resolve
 IP-CIDR,64.23.132.171/32,PROXY,no-resolve

@@ -172,24 +172,13 @@ def process_proxy_module(file_path):
 
     existing_set = set(rules)
     new_rules = []
-    # Prepend QUIC block
-    if QUIC_REJECT_RULE not in existing_set:
-        new_rules.append(QUIC_REJECT_RULE)
-
-    # Append custom proxy rules
-    for r in PROXY_APPEND_RULES:
-        if r not in existing_set and r != QUIC_REJECT_RULE:
-            new_rules.append(r)
-
-    # Combine: QUIC rule at top, then existing rules, then append rules
-    all_rules = []
-    if QUIC_REJECT_RULE not in existing_set:
-        all_rules.append(QUIC_REJECT_RULE + "\n")
+    append_set = set(PROXY_APPEND_RULES)
+    all_rules = [QUIC_REJECT_RULE + "\n"]
     for r in rules:
-        if r != QUIC_REJECT_RULE:
+        if r != QUIC_REJECT_RULE and r not in append_set:
             all_rules.append(r + "\n")
     for r in PROXY_APPEND_RULES:
-        if r not in existing_set and r != QUIC_REJECT_RULE:
+        if r != QUIC_REJECT_RULE:
             all_rules.append(r + "\n")
 
     combined = header + all_rules
@@ -292,79 +281,6 @@ udp-policy-not-supported-behaviour = REJECT
 use-local-host-item-for-proxy = false
 
 [Rule]
-# 1. 阻止 QUIC (HTTP/3 443 UDP)，解决节点关闭/不支持 UDP 导致苹果连接重置断流的问题，强制秒级平滑回退 TCP
-AND,((PROTOCOL,UDP),(DST-PORT,443)),REJECT-NO-DROP
-
-# 2. Apple Intelligence & 私有云计算 (PCC) & Siri
-DOMAIN-SUFFIX,apple-cloudcompute.com,PROXY
-DOMAIN-SUFFIX,apple-ai.com,PROXY
-DOMAIN,guzzoni.apple.com,PROXY
-DOMAIN,api-siri-prod.apple.com,PROXY
-DOMAIN-SUFFIX,siri.apple.com,PROXY
-DOMAIN-KEYWORD,siri,PROXY
-DOMAIN-SUFFIX,smoot.apple.com,PROXY
-DOMAIN-SUFFIX,gateway.icloud.com,PROXY
-DOMAIN-SUFFIX,apple-relay.apple.com,PROXY
-DOMAIN-SUFFIX,apple-relay.cloudflare.com,PROXY
-DOMAIN-SUFFIX,apple-relay.fastly-edge.com,PROXY
-DOMAIN-SUFFIX,apple-relay.akamaized.net,PROXY
-DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net,PROXY
-DOMAIN-SUFFIX,mask.icloud.com,PROXY
-DOMAIN-SUFFIX,mask-h2.icloud.com,PROXY
-DOMAIN-SUFFIX,mask-api.icloud.com,PROXY
-DOMAIN-SUFFIX,mask.apple-dns.net,PROXY
-DOMAIN-SUFFIX,mask-t.apple-dns.net,PROXY
-DOMAIN-SUFFIX,mask-api.fe.apple-dns.net,PROXY
-DOMAIN-SUFFIX,cp4.cloudflare.com,PROXY
-DOMAIN-SUFFIX,ls.apple.com,PROXY
-DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,PROXY
-DOMAIN,guzzoni-apple-com.v.aaplimg.com,PROXY
-DOMAIN,swallow-apple-com.v.aaplimg.com,PROXY
-DOMAIN,swallow.apple.com,PROXY
-DOMAIN,probe.siri.apple.com,PROXY
-DOMAIN,seed.siri.apple.com,PROXY
-DOMAIN,seed-swallow.siri.apple.com,PROXY
-DOMAIN,seed-sequoia.siri.apple.com,PROXY
-
-# 3. ChatGPT & OpenAI 鉴权服务链与实时通道
-DOMAIN,chat.openai.com.cdn.cloudflare.net,PROXY
-DOMAIN-KEYWORD,chatgpt,PROXY
-DOMAIN-KEYWORD,openai,PROXY
-DOMAIN-SUFFIX,chatgpt.com,PROXY
-DOMAIN-SUFFIX,openai.com,PROXY
-DOMAIN-SUFFIX,oaistatic.com,PROXY
-DOMAIN-SUFFIX,oaiusercontent.com,PROXY
-DOMAIN,api.statsig.com,PROXY
-DOMAIN-SUFFIX,events.statsigapi.net,PROXY
-DOMAIN-SUFFIX,featuregates.org,PROXY
-DOMAIN,browser-intake-datadoghq.com,PROXY
-DOMAIN,o33249.ingest.sentry.io,PROXY
-DOMAIN,openai-api.arkoselabs.com,PROXY
-DOMAIN-SUFFIX,client-api.arkoselabs.com,PROXY
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,PROXY
-DOMAIN,openaicomproductionae4b.blob.core.windows.net,PROXY
-DOMAIN,production-openaicom-storage.azureedge.net,PROXY
-DOMAIN,static.cloudflareinsights.com,PROXY
-DOMAIN-KEYWORD,openaicom-api,PROXY
-DOMAIN-SUFFIX,algolia.net,PROXY
-DOMAIN-SUFFIX,auth0.com,PROXY
-DOMAIN-SUFFIX,cdn.cloudflare.net,PROXY
-DOMAIN-SUFFIX,challenges.cloudflare.com,PROXY
-DOMAIN-SUFFIX,chatgpt.livekit.cloud,PROXY
-DOMAIN-SUFFIX,host.livekit.cloud,PROXY
-DOMAIN-SUFFIX,turn.livekit.cloud,PROXY
-DOMAIN-SUFFIX,identrust.com,PROXY
-DOMAIN-SUFFIX,intercom.io,PROXY
-DOMAIN-SUFFIX,intercomcdn.com,PROXY
-DOMAIN-SUFFIX,launchdarkly.com,PROXY
-DOMAIN-SUFFIX,stripe.com,PROXY
-IP-CIDR,24.199.123.28/32,PROXY,no-resolve
-IP-CIDR,45.76.214.191/32,PROXY,no-resolve
-IP-CIDR,64.23.132.171/32,PROXY,no-resolve
-IP-CIDR,143.198.200.27/32,PROXY,no-resolve
-IP-CIDR,159.89.204.203/32,PROXY,no-resolve
-
-# 4. 基础国别直连与兜底代理
 GEOIP,CN,DIRECT
 FINAL,PROXY
 
