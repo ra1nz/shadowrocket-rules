@@ -1,7 +1,8 @@
 #!name=proxy_list
 #!homepage=https://github.com/GMOogway/shadowrocket-rules
-#!desc=Rules:27503 Created:10-15 08:45 Publisher:GMOogway
+#!desc=Rules:27504 Created:10-15 08:45 Publisher:GMOogway
 [Rule]
+AND,((PROTOCOL,UDP),(DST-PORT,443)),REJECT-NO-DROP
 DOMAIN-SUFFIX,fbthirdpartypixel.com,PROXY
 DOMAIN,hpefonts.s3.amazonaws.com,PROXY
 DOMAIN-SUFFIX,kkbox.com.tw,PROXY
