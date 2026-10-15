@@ -1,6 +1,6 @@
 #!name=direct_list
 #!homepage=https://github.com/GMOogway/shadowrocket-rules
-#!desc=Rules:110625 Created:10-15 08:45 Publisher:GMOogway
+#!desc=Rules:110615 Created:10-15 08:45 Publisher:GMOogway
 [Rule]
 DOMAIN-SUFFIX,huyn.com,DIRECT
 DOMAIN-SUFFIX,sinoss.com,DIRECT
@@ -1542,7 +1542,6 @@ DOMAIN-SUFFIX,39clean.com,DIRECT
 DOMAIN-SUFFIX,houdao.com,DIRECT
 DOMAIN-SUFFIX,hzxddt.com,DIRECT
 DOMAIN-SUFFIX,win10h.com,DIRECT
-DOMAIN,seed-sequoia.siri.apple.com,DIRECT
 DOMAIN-SUFFIX,365cego.com,DIRECT
 DOMAIN-SUFFIX,armourtires.com,DIRECT
 DOMAIN-SUFFIX,yehuisteel.com,DIRECT
@@ -12404,7 +12403,6 @@ DOMAIN-SUFFIX,njjknkyy.com,DIRECT
 DOMAIN-SUFFIX,hzman.net,DIRECT
 DOMAIN-SUFFIX,sxrczx.com,DIRECT
 DOMAIN-SUFFIX,zhichi.com,DIRECT
-DOMAIN,guzzoni.smoot.apple.com,DIRECT
 DOMAIN-SUFFIX,zking.com,DIRECT
 DOMAIN-SUFFIX,mczwlt.net,DIRECT
 DOMAIN-SUFFIX,sfplay.net,DIRECT
@@ -33315,7 +33313,6 @@ DOMAIN-SUFFIX,chengweitx.com,DIRECT
 DOMAIN-SUFFIX,yunyichong.com,DIRECT
 DOMAIN-SUFFIX,tj20.com,DIRECT
 DOMAIN-SUFFIX,lewawa.com,DIRECT
-DOMAIN,seed.siri.apple.com,DIRECT
 DOMAIN-SUFFIX,jc56.com,DIRECT
 DOMAIN-SUFFIX,cloudflvare.com,DIRECT
 DOMAIN-SUFFIX,szmys.com,DIRECT
@@ -40514,7 +40511,6 @@ DOMAIN-SUFFIX,lzzgljj.com,DIRECT
 DOMAIN-SUFFIX,zupulu.com,DIRECT
 DOMAIN-SUFFIX,zw-tencentclb.com,DIRECT
 DOMAIN-SUFFIX,huizuoyuezi.com,DIRECT
-DOMAIN,swallow.apple.com,DIRECT
 DOMAIN-SUFFIX,13800100.com,DIRECT
 DOMAIN-SUFFIX,cloud-wuhan.com,DIRECT
 DOMAIN-SUFFIX,herdacdn.com,DIRECT
@@ -42057,7 +42053,6 @@ DOMAIN-SUFFIX,liwenzhou.com,DIRECT
 DOMAIN-SUFFIX,hyhdtg.com,DIRECT
 DOMAIN-SUFFIX,yibaijin.com,DIRECT
 DOMAIN-SUFFIX,nutzam.com,DIRECT
-DOMAIN,seed-swallow.siri.apple.com,DIRECT
 DOMAIN-SUFFIX,ceiaec.org,DIRECT
 DOMAIN-SUFFIX,whpma.org,DIRECT
 DOMAIN-SUFFIX,calb-tech.com,DIRECT
@@ -56372,7 +56367,6 @@ DOMAIN-SUFFIX,youxiaoge.com,DIRECT
 DOMAIN-SUFFIX,renrenstudy.com,DIRECT
 DOMAIN-SUFFIX,cjdcw.com,DIRECT
 DOMAIN-SUFFIX,gxsrwl.com,DIRECT
-DOMAIN,probe.siri.apple.com,DIRECT
 DOMAIN-SUFFIX,aliyunddos1003.com,DIRECT
 DOMAIN-SUFFIX,irealcare.com,DIRECT
 DOMAIN-SUFFIX,burgud.com,DIRECT
@@ -90481,7 +90475,6 @@ DOMAIN-SUFFIX,ycfbapp.com,DIRECT
 DOMAIN-SUFFIX,caihongsheying.com,DIRECT
 DOMAIN-SUFFIX,uovz.com,DIRECT
 DOMAIN-SUFFIX,autosey.com,DIRECT
-DOMAIN,guzzoni-apple-com.v.aaplimg.com,DIRECT
 DOMAIN-SUFFIX,cqpeixin.com,DIRECT
 DOMAIN-SUFFIX,dz211.com,DIRECT
 DOMAIN-SUFFIX,sdaofu.com,DIRECT
@@ -93019,7 +93012,6 @@ DOMAIN-SUFFIX,59370.com,DIRECT
 DOMAIN-SUFFIX,lapin365.com,DIRECT
 DOMAIN-SUFFIX,xn--3bs35yfl6bn8a.ink,DIRECT
 DOMAIN-SUFFIX,yunyazu.com,DIRECT
-DOMAIN,swallow-apple-com.v.aaplimg.com,DIRECT
 DOMAIN-SUFFIX,wmb2b.com,DIRECT
 DOMAIN-SUFFIX,8888800000.com,DIRECT
 DOMAIN-SUFFIX,oukan.online,DIRECT
@@ -99017,7 +99009,6 @@ DOMAIN-SUFFIX,jiuxinsolar.com,DIRECT
 DOMAIN-SUFFIX,lezai.com,DIRECT
 DOMAIN-SUFFIX,tlivesrc2.com,DIRECT
 DOMAIN-SUFFIX,youma.cc,DIRECT
-DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,allinpaygx.com,DIRECT
 DOMAIN-SUFFIX,dm5u.com,DIRECT
 DOMAIN-SUFFIX,pbyz.net,DIRECT
@@ -105027,7 +105018,6 @@ DOMAIN-SUFFIX,gxlzpc.com,DIRECT
 DOMAIN-SUFFIX,chipcreation.com,DIRECT
 DOMAIN-SUFFIX,jieyougame.com,DIRECT
 DOMAIN-SUFFIX,tcsdzz.com,DIRECT
-DOMAIN,guzzoni.apple.com,DIRECT
 DOMAIN-SUFFIX,radio1964.com,DIRECT
 DOMAIN-SUFFIX,lypb.com,DIRECT
 DOMAIN-SUFFIX,nicezhuanye.com,DIRECT

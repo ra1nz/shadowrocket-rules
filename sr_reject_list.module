@@ -1,6 +1,6 @@
 #!name=reject_list
 #!homepage=https://github.com/GMOogway/shadowrocket-rules
-#!desc=Rules:193624 Created:10-15 08:45 Publisher:GMOogway
+#!desc=Rules:193609 Created:10-15 08:45 Publisher:GMOogway
 [Rule]
 DOMAIN-SUFFIX,stats.kyushoku2050.org,REJECT
 DOMAIN-SUFFIX,ds.q-parts.sk,REJECT
@@ -2556,7 +2556,6 @@ DOMAIN-SUFFIX,ilm.winalist.com,REJECT
 DOMAIN-SUFFIX,da.ganzinweiss.eu,REJECT
 DOMAIN-SUFFIX,sgtm.apolo.npro21.com,REJECT
 DOMAIN-SUFFIX,fetchlately.com,REJECT
-DOMAIN-SUFFIX,events.launchdarkly.com,REJECT
 DOMAIN-SUFFIX,lnjzu.sunsarasuncatchers.com,REJECT
 DOMAIN-SUFFIX,load.servergtm.truesource.com.br,REJECT
 DOMAIN-SUFFIX,trueanthem.com,REJECT
@@ -6446,7 +6445,6 @@ DOMAIN-SUFFIX,dashboard.digita.media,REJECT
 DOMAIN-SUFFIX,pfctoaznqazlg.store,REJECT
 DOMAIN-SUFFIX,propgoservice.com,REJECT
 DOMAIN-SUFFIX,interimairesssante.fr,REJECT
-DOMAIN-SUFFIX,featuregates.org,REJECT
 DOMAIN-SUFFIX,momohanoi.me,REJECT
 DOMAIN-SUFFIX,capi.eberledigital.de,REJECT
 DOMAIN-SUFFIX,sst.smartness.com,REJECT
@@ -7173,7 +7171,6 @@ DOMAIN-SUFFIX,smetrics.dishnetwork.com,REJECT
 DOMAIN-SUFFIX,adbmetrics.caravantur.eus,REJECT
 DOMAIN-SUFFIX,smetrics.discover.com,REJECT
 DOMAIN-SUFFIX,love.lwbern.ch,REJECT
-DOMAIN-SUFFIX,rum-http-intake.logs.datadoghq.eu,REJECT
 DOMAIN-SUFFIX,metrics.newbalance.com,REJECT
 DOMAIN-SUFFIX,invasiondiscipleburglary.com,REJECT
 DOMAIN-SUFFIX,ulpjdqgndygby.space,REJECT
@@ -8380,7 +8377,6 @@ DOMAIN-SUFFIX,axp.mystateline.com,REJECT
 DOMAIN-SUFFIX,capifb.eyefixerbd.com,REJECT
 DOMAIN-SUFFIX,flow.healthbeenfitsonline.com,REJECT
 DOMAIN-SUFFIX,go.bitnami.com,REJECT
-DOMAIN-SUFFIX,browser-http-intake.logs.datadoghq.eu,REJECT
 DOMAIN-SUFFIX,dt.pitpackaging.ch,REJECT
 DOMAIN-SUFFIX,uaete.kendallscollection.com,REJECT
 DOMAIN-SUFFIX,jfdfvprfq.bioethanol-fireplace.co.uk,REJECT
@@ -28734,7 +28730,6 @@ DOMAIN-SUFFIX,adclickafrica.com,REJECT
 DOMAIN-SUFFIX,sgtm.fyrklovern.com,REJECT
 DOMAIN-SUFFIX,vn-taikhoan.online,REJECT
 DOMAIN-SUFFIX,kettrinrehangs.cyou,REJECT
-DOMAIN-SUFFIX,api.statsigcdn.com,REJECT
 DOMAIN-SUFFIX,sst.rasmus.com,REJECT
 DOMAIN-SUFFIX,metrics.liverpool.com.mx,REJECT
 DOMAIN-SUFFIX,metrics.oreilly.com,REJECT
@@ -32512,7 +32507,6 @@ DOMAIN-SUFFIX,smetric.mandatum.fi,REJECT
 DOMAIN-SUFFIX,dj2550.com,REJECT
 DOMAIN-SUFFIX,marketing.nona.digital,REJECT
 DOMAIN-SUFFIX,ywrcqa.wzzm13.com,REJECT
-DOMAIN-SUFFIX,http-intake.logs.datadoghq.com,REJECT
 DOMAIN-SUFFIX,smetrics.publiclands.com,REJECT
 DOMAIN-SUFFIX,treehousei.com,REJECT
 DOMAIN-SUFFIX,dunhilltraveldeals.com,REJECT
@@ -35155,7 +35149,6 @@ DOMAIN-SUFFIX,busketmating.qpon,REJECT
 DOMAIN-SUFFIX,gtm.allanpimenta.com.br,REJECT
 DOMAIN-SUFFIX,pl.feestfabriektilburg.nl,REJECT
 DOMAIN-SUFFIX,file.premiergrouproofs.com,REJECT
-DOMAIN-SUFFIX,browser-http-intake.logs.datadoghq.com,REJECT
 DOMAIN-SUFFIX,sgtm.marbec.it,REJECT
 DOMAIN-SUFFIX,now.wowmedicareplans.com,REJECT
 DOMAIN-SUFFIX,s-web.informatoreagrario.it,REJECT
@@ -38676,7 +38669,6 @@ DOMAIN-SUFFIX,exch.rapasso.nl,REJECT
 DOMAIN-SUFFIX,ijgtudf.kozii.com,REJECT
 DOMAIN-SUFFIX,dwga.marcaria.com,REJECT
 DOMAIN-SUFFIX,yzjncchwnfdni.online,REJECT
-DOMAIN-SUFFIX,tlzqr.datadoghq.com,REJECT
 DOMAIN-SUFFIX,buy-cialis.splinder.com,REJECT
 DOMAIN-SUFFIX,applez.fr,REJECT
 DOMAIN-SUFFIX,nsmetrics.levi.com,REJECT
@@ -47798,7 +47790,6 @@ DOMAIN-SUFFIX,hurlmedia.design,REJECT
 DOMAIN-SUFFIX,swkjtstjnvogh.site,REJECT
 DOMAIN-SUFFIX,email.zumaoffice.com,REJECT
 DOMAIN-SUFFIX,oechestra.fr,REJECT
-DOMAIN-SUFFIX,r.openai.com,REJECT
 DOMAIN-SUFFIX,appendixwarmingauthors.com,REJECT
 DOMAIN-SUFFIX,adsomenoise.cdn01.rambla.be,REJECT
 DOMAIN-SUFFIX,server.teacherana.com.br,REJECT
@@ -69817,7 +69808,6 @@ DOMAIN-SUFFIX,marketing.carmichael-hill.com,REJECT
 DOMAIN-SUFFIX,reporter.adtech.us,REJECT
 DOMAIN-SUFFIX,data-6dde45f576.sportbuzzer.de,REJECT
 DOMAIN-SUFFIX,oatmealmontleymontleyremove.com,REJECT
-DOMAIN-SUFFIX,browser-intake-datadoghq.com,REJECT
 DOMAIN-SUFFIX,younguntraffic.cyou,REJECT
 DOMAIN-SUFFIX,go.boleiro.net,REJECT
 DOMAIN-SUFFIX,tr.poker.np6.com,REJECT
@@ -73470,7 +73460,6 @@ DOMAIN-SUFFIX,metrics.ansys.com,REJECT
 DOMAIN-SUFFIX,connect.mdtelephone.com,REJECT
 DOMAIN-SUFFIX,data-5b771a2641.berliner-zeitung.de,REJECT
 DOMAIN-SUFFIX,vkdrvsfxomtxw.space,REJECT
-DOMAIN-SUFFIX,bzrcdn.openai.com,REJECT
 DOMAIN-SUFFIX,sst.prismresearchlab.com,REJECT
 DOMAIN-SUFFIX,sw88.24kitchen.bg,REJECT
 DOMAIN-SUFFIX,brominspayout.cfd,REJECT
@@ -86491,7 +86480,6 @@ DOMAIN-SUFFIX,sgtm.brazucabet.net,REJECT
 DOMAIN-SUFFIX,groundafreshjumped.com,REJECT
 DOMAIN-SUFFIX,sst.smnovella.com,REJECT
 DOMAIN-SUFFIX,kpjeq.tupelogoods.com,REJECT
-DOMAIN-SUFFIX,events.statsigapi.net,REJECT
 DOMAIN-SUFFIX,stape.paulobassanni.com.br,REJECT
 DOMAIN-SUFFIX,clicks.emarketmakers.com,REJECT
 DOMAIN-SUFFIX,d3bo67muzbfgtl.cloudfront.net,REJECT
@@ -130599,7 +130587,6 @@ DOMAIN-SUFFIX,processors801.net,REJECT
 DOMAIN-SUFFIX,creative.teamcreative.nl,REJECT
 DOMAIN-SUFFIX,dp1.duceppe.com,REJECT
 DOMAIN-SUFFIX,rtcdupmicrfkp.site,REJECT
-DOMAIN-SUFFIX,bzr.openai.com,REJECT
 DOMAIN-SUFFIX,buycialisonline.7h.com,REJECT
 DOMAIN-SUFFIX,bwyasc.inseasonjewelry.com,REJECT
 DOMAIN-SUFFIX,data-236c420b67.glamourshopping.de,REJECT
@@ -136287,7 +136274,6 @@ DOMAIN-SUFFIX,moncialrelay.fr,REJECT
 DOMAIN-SUFFIX,servedby.cricketworld.com,REJECT
 DOMAIN-SUFFIX,jacksonbateaux.com,REJECT
 DOMAIN-SUFFIX,sskt.moea.io,REJECT
-DOMAIN-SUFFIX,adobemetrics.auth0.com,REJECT
 DOMAIN-SUFFIX,rascalwitsirksome.com,REJECT
 DOMAIN-SUFFIX,somni.mmm-online.com,REJECT
 DOMAIN-SUFFIX,tracking.seton.es,REJECT
@@ -150217,7 +150203,6 @@ DOMAIN-SUFFIX,data.colhogar.com.co,REJECT
 DOMAIN-SUFFIX,rgstispqfesdl.website,REJECT
 DOMAIN-SUFFIX,advert-track.com,REJECT
 DOMAIN-SUFFIX,ljjinnxdcknpy.online,REJECT
-DOMAIN-SUFFIX,rum-http-intake.logs.datadoghq.com,REJECT
 DOMAIN-SUFFIX,xequdtvtefuzy.space,REJECT
 DOMAIN-SUFFIX,qeynos.weshape.gr,REJECT
 DOMAIN-SUFFIX,stats.halvarsson.se,REJECT
