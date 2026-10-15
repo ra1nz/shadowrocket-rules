@@ -17,8 +17,6 @@ import sys
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-QUIC_REJECT_RULE = "AND,((PROTOCOL,UDP),(DST-PORT,443)),REJECT-NO-DROP"
-
 PROXY_APPEND_RULES = [
     # OpenAI / ChatGPT
     "DOMAIN,chat.openai.com.cdn.cloudflare.net,PROXY",
@@ -173,13 +171,12 @@ def process_proxy_module(file_path):
     existing_set = set(rules)
     new_rules = []
     append_set = set(PROXY_APPEND_RULES)
-    all_rules = [QUIC_REJECT_RULE + "\n"]
+    all_rules = []
     for r in rules:
-        if r != QUIC_REJECT_RULE and r not in append_set:
+        if r != "AND,((PROTOCOL,UDP),(DST-PORT,443)),REJECT-NO-DROP" and r not in append_set:
             all_rules.append(r + "\n")
     for r in PROXY_APPEND_RULES:
-        if r != QUIC_REJECT_RULE:
-            all_rules.append(r + "\n")
+        all_rules.append(r + "\n")
 
     combined = header + all_rules
     combined, count = update_header_count(combined)
