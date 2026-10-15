@@ -1,0 +1,18 @@
+docs/03.shadowsocks_tiny.conf
+  h_c3ffd5524d767b 2,4,9,17,23-24,27-99
+scripts/sync_overlay.py
+  h_c3ffd5524d767b 268-378,384,389,395
+sr_proxy_list.module
+  h_c3ffd5524d767b 3,5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "4c10c49ef8f5f641bb47d56f3968852d35e8d74b",
+  "prompts": {},
+  "humans": {
+    "h_c3ffd5524d767b": {
+      "author": "ra1nz <ra1nz@users.noreply.github.com>"
+    }
+  }
+}
