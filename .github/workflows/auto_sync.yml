@@ -34,12 +34,11 @@ jobs:
           # 1. Reset working tree to upstream master
           git reset --hard upstream/master
 
-          # 2. Run overlay script
-          python3 scripts/sync_overlay.py
+          # 2. Keep customized factory templates
+          git checkout origin/feature/apple-intelligence-rules -- factory/ || true
 
-          # 3. Restore customized factory templates & tiny conf from feature branch or script
-          # (Ensure factory and conf files stay custom)
-          git checkout origin/feature/apple-intelligence-rules -- factory/ docs/03.shadowsocks_tiny.conf || true
+          # 3. Run overlay script (updates .module files AND writes fully optimized tiny.conf)
+          python3 scripts/sync_overlay.py
 
       - name: Commit and Push
         run: |
@@ -51,3 +50,10 @@ jobs:
             git commit -m "chore(sync): sync upstream and overlay custom rules" -m "Upstream: $UPSTREAM_MSG"
             git push origin master --force
           fi
+
+      - name: Purge jsDelivr CDN Cache
+        run: |
+          curl -s "https://purge.jsdelivr.net/gh/ra1nz/shadowrocket-rules@master/docs/03.shadowsocks_tiny.conf" || true
+          curl -s "https://purge.jsdelivr.net/gh/ra1nz/shadowrocket-rules@master/sr_proxy_list.module" || true
+          curl -s "https://purge.jsdelivr.net/gh/ra1nz/shadowrocket-rules@master/sr_direct_list.module" || true
+          curl -s "https://purge.jsdelivr.net/gh/ra1nz/shadowrocket-rules@master/sr_reject_list.module" || true
