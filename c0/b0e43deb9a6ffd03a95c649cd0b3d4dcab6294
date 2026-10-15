@@ -1,0 +1,16 @@
+scripts/sync_overlay.py
+  h_c3ffd5524d767b 175-176,178,181
+sr_proxy_list.module
+  h_c3ffd5524d767b 27439-27442,27445-27447,27477-27503
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "c0b0e43deb9a6ffd03a95c649cd0b3d4dcab6294",
+  "prompts": {},
+  "humans": {
+    "h_c3ffd5524d767b": {
+      "author": "ra1nz <ra1nz@users.noreply.github.com>"
+    }
+  }
+}
