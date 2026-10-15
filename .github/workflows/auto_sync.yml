@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: master
-          fetch-depth: 0
+          fetch-depth: 10
 
       - name: Configure Git
         run: |
@@ -27,32 +27,30 @@ jobs:
       - name: Setup Upstream Remote
         run: |
           git remote add upstream https://github.com/GMOogway/shadowrocket-rules.git || git remote set-url upstream https://github.com/GMOogway/shadowrocket-rules.git
-          git fetch upstream master
+          git fetch upstream master --depth=1
 
-      - name: Reset to Upstream Master & Apply Overlays
+      - name: Checkout Upstream Release Files & Apply Overlays
         run: |
-          # 1. Reset working tree to upstream master
-          git reset --hard upstream/master
+          # 1. Update module files and release notes from upstream master
+          git checkout upstream/master -- sr_direct_list.module sr_proxy_list.module sr_reject_list.module README.md docs/00.shadowrocket_rules_update_announcement.md
 
-          # 2. Keep customized factory templates
-          git checkout origin/feature/apple-intelligence-rules -- factory/ || true
-
-          # 3. Run overlay script (updates .module files AND writes fully optimized tiny.conf)
+          # 2. Run overlay script (modifies .module files and generates fully optimized tiny.conf)
           python3 scripts/sync_overlay.py
 
       - name: Commit and Push
         run: |
           git add -A
           if git diff --staged --quiet; then
-            echo "No changes to commit."
+            echo "No changes to commit. Repository is already up to date with upstream."
           else
             UPSTREAM_MSG=$(git log -1 --pretty=%B upstream/master)
             git commit -m "chore(sync): sync upstream and overlay custom rules" -m "Upstream: $UPSTREAM_MSG"
-            git push origin master --force
+            git push origin master
           fi
 
       - name: Purge jsDelivr CDN Cache
         run: |
+          echo "Purging jsDelivr CDN cache..."
           curl -s "https://purge.jsdelivr.net/gh/ra1nz/shadowrocket-rules@master/docs/03.shadowsocks_tiny.conf" || true
           curl -s "https://purge.jsdelivr.net/gh/ra1nz/shadowrocket-rules@master/sr_proxy_list.module" || true
           curl -s "https://purge.jsdelivr.net/gh/ra1nz/shadowrocket-rules@master/sr_direct_list.module" || true
